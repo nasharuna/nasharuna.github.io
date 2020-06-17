@@ -1,57 +1,47 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html>
 <head>
-	<meta charset="utf-8">
-	<title>Lab3 Registration Form</title>
-	<link rel='stylesheet' href='form.css' type='text/css'/>
-	<script src="myform.js" type="text/javascript"></script>
+	<style>
+		A{text-decoration:none}
+		body{
+		background-image: url('https://i.pinimg.com/originals/d6/f5/f6/d6f5f6c907f33c09e40b6592ec3e8f9d.jpg');
+		background-repeat: no-repeat;	}
+	</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="w3.css">
+	<title>INDEX</title>
 </head>
 
-<body onLoad="document.registration.firstname.focus();">
-		<h1>PERSONAL INFORMATIONS</h1>
+<body>
 	
-	<form name='registration' onSubmit="return formValidation();">
-		<table>
-			<tr><td align="right"><label for="firstname">First Name:</label></td>
-				<td><input type="text" name="firstname" size="12"></td></tr>
-			<tr><td align="right"><label for="lastname">Last Name:</label></td>
-				<td><input type="text" name="lastname" size="12"></td></tr>
-			<tr><td align="right" valign="top" nowrap><label for="email">Email:</label></td>
-				<td><input type="text" name="email" size="50"></td></tr>
-			<tr><td align="right" valign="top" nowrap><label for="passid">Password:</label></td>
-				<td><input type="password" name="passid1" size="12" id="myPass1"><input type="checkbox" onClick="showPass1()">Show Password</td></tr>
-			<tr><td align="right" valign="top" nowrap>Confirm Password:</td>
-				<td><input type="password" name="passid2" size="12" id="myPass2"><input type="checkbox" onClick="showPass2()">Show Password</td></tr>
-			<tr><td align="right" valign="top" nowrap><label id="gender">Gender:</label></td>
-				<td><input type="radio" name="msex" value="Male"><label for="male">Male</label>
-				<input type="radio" name="fsex" value="Female"><label for="female">Female</label></td></tr>
-			<tr><td align="right" valign="top" nowrap><label for="state">State:</label></td>
-				<td><select name="state">
-					<option selected="" value="Default"></option>
-					<option value="johor">Johor</option>
-					<option value="kedah">Kedah</option>
-					<option value="kelantan">Kelantan</option>
-					<option value="melaka">Melaka</option>
-					<option value="negeri9">Negeri Sembilan</option>
-					<option value="pahang">Pahang</option>
-					<option value="perak">Perak</option>
-					<option value="perlis">Perlis</option>
-					<option value="penang">Penang</option>
-					<option value="selangor">Selangor</option>
-					<option value="terengganu">Terengganu</option>
-					<option value="sarawak">Sarawak</option>
-					<option value="sabah">Sabah</option>
-				</select></td></tr>
-		</table>
-		<div class="w3-border">
-			<h6>TERMS AND CONDITIONS</h6>
-		</div>
-		<input type="checkbox" required="required">I accept the above Terms and Conditions 
-		
-		<table>
-			<tr><td nowrap align="right">&nbsp;</td>
-				<td><input name="submit" type="submit" value="Register"><input name="reset" type="reset" value="Clear"></td></tr>
-		</table>
-</form>
+	<div class="w3-container">
+		<h1 class="w3-center w3-animate-right" align="center">BIODATA</h1>
+	</div>
+	<div class="w3-container w3-round-xxlarge w3-hover-opacity w3-teal">
+	<p>My name is <b>Muhammad Nasharuddin bin Sufiyan</b></p>
+	</div>
+	<div class="w3-container w3-round-xxlarge w3-hover-opacity w3-blue">
+	<h2>Interest: <i>Animes</i> and <u>Memes</u></h2>
+	</div>
+	<div class="w3-container w3-round-xxlarge w3-hover-opacity w3-green">
+	<h3>Hobby: Playing ranked dota <small>10 hours</small> a day</h3>
+	</div>
+	<div class="w3-container w3-round-xxlarge w3-hover-opacity w3-red">
+	<h4>Education background: Diploma at UITM - CS110</h4>
+	</div>
+	<div class="w3-container w3-round-xxlarge w3-hover-opacity w3-yellow">
+	<h5>Achievements: im still alive :)</h5>
+	</div>
+	<marquee behavior="slide" direction="right" scrollamount="13"><h2> Dream Job: Game Designer / Illustrator</h2></marquee>
+	<br><br><br>
+	<p>Click the image below to go to MYCOURSE :)</p>
+	<a href="my-course.html">
+		<img src="mlem.jpg" alt="GO TO MYCOURSE" style="width:142px;height:142px;border:0;" class="w3-hover-opacity w3-circle">
+	</a>
+	<br><br><br>
+	<p>Click the image below to go to REGISTRATION :)</p>
+	<a href="registration.html">
+		<img src="638.jpg" alt="GO TO REGISTRATION" style="width:142px;height:142px;border:0;" class="w3-hover-opacity w3-circle">
+	</a>
 </body>
 </html>
